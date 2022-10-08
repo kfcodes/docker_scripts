@@ -4,4 +4,5 @@ docker run -d \
     --env MARIADB_USER=test\
     --env MARIADB_PASSWORD=test\
     --env MARIADB_ROOT_PASSWORD=root_password \
+    -v ~/.mysqlScripts:/docker-entrypoint-initdb.d/ \
     mariadb:latest
