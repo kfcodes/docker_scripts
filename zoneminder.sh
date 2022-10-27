@@ -7,5 +7,7 @@ docker run -d \
 	-e TZ Europe/Dublin \
 	-e PUID 99 \
 	-e PGID 100 \
+	-v /mnt/Zoneminder:/config\
+	-v /mnt/Zoneminder/data:/var/cache/zoneminder \
 	dlandon/zoneminder
 
