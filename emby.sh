@@ -1,6 +1,7 @@
 #! bin/bash
 
-# Create emby image and start the container detached
 docker run -d \
 --name=emby \
+-e TZ=Europe/Dublin \
+--restart unless-stopped \
 lscr.io/linuxserver/emby:latest
