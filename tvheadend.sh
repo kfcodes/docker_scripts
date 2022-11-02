@@ -1,1 +1,4 @@
-docker run -d linuxserver/tvheadend
+docker run -d \
+ --name=tvheadend \
+ --restart unless-stopped \
+linuxserver/tvheadend
