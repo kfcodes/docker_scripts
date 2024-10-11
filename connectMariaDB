@@ -1,5 +1,0 @@
-mariadb --host 127.0.0.1 -P 3306 --user root -proot_password
-
-# mysql --host 127.0.0.1 -P 3306 --user root -p
-# mariadb --host 127.0.0.1 -P 3306 --user root -pp bible < ../mysqlScripts/create_bible_database.sql
-# docker exec -it some-mariadb bash
